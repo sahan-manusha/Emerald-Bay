@@ -28,3 +28,4 @@ const store = (set) => ({
 export const useAuthStore = create(
   devtools(persist(store, { name: "authStore" }), "authStore")
 );
+
